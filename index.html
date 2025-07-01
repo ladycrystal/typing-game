@@ -1,0 +1,28 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Typing Game</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Typing game!</h1>
+    <p class="instructions">
+      Practice your typing game with a quote from Sherlock Holmes. Click
+      **start** to begin!
+    </p>
+    <p id="quote"></p>
+    <!-- This will show a quote from Sherlock Holmes. -->
+    <p id="message"></p>
+    <!-- This will show any status message. -->
+    <div class="type-area">
+      <input type="text" aria-label="current word" id="typed-value" />
+      <!-- This is where the user will type. -->
+      <button id="start">Start</button>
+      <!-- This button starts the game. -->
+      <button id="reset">Reset</button>
+      <!-- This button resets the game. -->
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
