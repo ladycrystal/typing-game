@@ -1,0 +1,46 @@
+.highlight {
+  background-color: yellow;
+}
+
+.error {
+  background-color: lightcoral;
+  border: red;
+}
+
+h1 {
+  color: blue;
+  font-size: 2em;
+  text-align: center;
+  padding-top: 5px;
+}
+
+.instructions {
+  font-size: 1.2em;
+  color: darkgreen;
+  margin: 20px;
+  text-align: center;
+}
+
+.type-area {
+  text-align: center;
+  margin-top: 100px;
+}
+
+#quote {
+  font-size: 1.5em;
+  color: darkblue;
+  margin-top: 40px;
+  text-align: center;
+}
+
+#quote span {
+  font-weight: bold;
+}
+
+#message {
+  font-size: 1.2em;
+  color: darkred;
+  text-align: center;
+  margin-top: 20px;
+  text-align: center;
+}
